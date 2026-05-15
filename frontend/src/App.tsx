@@ -402,6 +402,11 @@ function App() {
             )}
           </div>
 
+        </div>
+
+        {/* ── Below top-right buttons: solve error + unplaced items banners ── */}
+        <div className="absolute top-20 right-4 z-20 flex flex-col gap-2 max-w-sm">
+
           {/* Solve error banner */}
           {error && (
             <div className={`w-full rounded-xl border-2 px-4 py-3 text-sm flex gap-2.5 items-start shadow-lg ${
